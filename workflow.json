@@ -1,10 +1,10 @@
 {
   "kind": "Workflow",
-  "id": "42ff0cd811d627ff1f68d35e33c29a4d",
+  "id": "e4d9be95bfa2ee7a85c217b598746b45",
   "isDeleted": false,
-  "rev": "31-39538016263cb08b0ebac363261c7931",
-  "description": "Plots the median and mad ratios between a treatment and a control condition in a barplot and a heatmap.",
-  "name": "plot_ratio_app",
+  "rev": "10-7cf1661a2b2ee459b2247e21be641017",
+  "description": "",
+  "name": "plot_median_ratio_app",
   "createdBy": "myrto.kostadima",
   "acl": {
     "kind": "Acl",
@@ -13,31 +13,20 @@
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-11-18T15:40:35.535237Z"
+    "value": "2022-12-15T10:42:51.948826Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-11-21T14:41:40.447453Z"
+    "value": "2022-12-15T10:56:38.589939Z"
   },
-  "urls": [
-    {
-      "kind": "Url",
-      "uri": "https://github.com/tercen/simple_workflow_template"
-    }
-  ],
+  "urls": [],
   "tags": [],
-  "meta": [
-    {
-      "kind": "Pair",
-      "key": "copyOf",
-      "value": "f8a10d0f634bec18e16e16305e002f60"
-    }
-  ],
+  "meta": [],
   "url": {
     "kind": "Url",
-    "uri": "https://github.com/tercen/simple_workflow_template"
+    "uri": ""
   },
-  "version": "1.0.0",
+  "version": "",
   "authors": [],
   "isPublic": false,
   "projectId": "6ab4fa9ce7cf4eb188b1fba16a2f5e26",
@@ -45,51 +34,45 @@
   "links": [
     {
       "kind": "Link",
-      "id": "724abb0b-53cc-4721-8540-d109fa8343f8",
-      "inputId": "493922a7-fe2f-433c-af82-a6a69cfc3047-i-0",
-      "outputId": "3236e41e-2200-4332-af6a-fa19c1fdec83-o-0"
+      "id": "5dcc9ec8-596f-46fe-a986-db4146f1bef1",
+      "inputId": "b61be878-0b63-49b4-b61a-c71d840e5e51-i-0",
+      "outputId": "6d81f4aa-a67a-4f4c-ba1d-70871d5e94f1-o-0"
     },
     {
       "kind": "Link",
-      "id": "314f7791-10ff-4b66-9628-d39cc76f3abe",
-      "inputId": "63869d4c-79c6-4a15-bf88-bb7d2540c26d-i-0",
-      "outputId": "985ffb10-3726-41c0-9147-22fe223d3a25-o-0"
+      "id": "ee923f86-76b2-4fbf-9487-88b41a4e77e0",
+      "inputId": "03666ce0-d846-4ffc-aa9c-edcca5ff1880-i-0",
+      "outputId": "b61be878-0b63-49b4-b61a-c71d840e5e51-o-0"
     },
     {
       "kind": "Link",
-      "id": "8f5c1280-71e9-4b84-8b69-e7d84a8febce",
-      "inputId": "985ffb10-3726-41c0-9147-22fe223d3a25-i-0",
-      "outputId": "3236e41e-2200-4332-af6a-fa19c1fdec83-o-0"
+      "id": "f1b6f9a2-0c9e-4d31-b98a-3952ec11ef5d",
+      "inputId": "6d81f4aa-a67a-4f4c-ba1d-70871d5e94f1-i-0",
+      "outputId": "bd97f8f6-3acb-43d8-87ab-c554bba58fcf-o-0"
     },
     {
       "kind": "Link",
-      "id": "618a125e-9a2c-496e-94b2-61446f79ec6a",
-      "inputId": "3236e41e-2200-4332-af6a-fa19c1fdec83-i-0",
-      "outputId": "edbffe33-d683-4fb4-a15a-fb28e47250b4-o-0"
+      "id": "17a7389c-6f2d-4609-b56c-a8bdb61cd2a3",
+      "inputId": "bd97f8f6-3acb-43d8-87ab-c554bba58fcf-i-0",
+      "outputId": "165990b7-e296-4e96-9f4a-183f393b48fc-o-0"
     },
     {
       "kind": "Link",
-      "id": "6772c0f0-7e9f-40b0-99e4-e8ee5b0c99a0",
-      "inputId": "edbffe33-d683-4fb4-a15a-fb28e47250b4-i-0",
-      "outputId": "f8d030b5-666e-4be9-936f-a659c29896d0-o-0"
-    },
-    {
-      "kind": "Link",
-      "id": "900892c4-692b-48e7-b9dd-b5536abecb37",
-      "inputId": "b7f1f84a-0267-4844-83ba-d15e7c4642dd-i-0",
-      "outputId": "985ffb10-3726-41c0-9147-22fe223d3a25-o-0"
+      "id": "1bd0b09f-8457-4686-992e-1de354373668",
+      "inputId": "15d2aa97-43bf-4312-8a2a-882203f23e1a-i-0",
+      "outputId": "b61be878-0b63-49b4-b61a-c71d840e5e51-o-0"
     }
   ],
   "steps": [
     {
       "kind": "DataStep",
-      "id": "3236e41e-2200-4332-af6a-fa19c1fdec83",
+      "id": "6d81f4aa-a67a-4f4c-ba1d-70871d5e94f1",
       "groupId": "",
-      "name": "median ratio barplot (mad error bar)",
+      "name": "Median ratio barplot with mad error bars",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "3236e41e-2200-4332-af6a-fa19c1fdec83-i-0",
+          "id": "6d81f4aa-a67a-4f4c-ba1d-70871d5e94f1-i-0",
           "linkType": "relation",
           "name": "data"
         }
@@ -97,7 +80,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "3236e41e-2200-4332-af6a-fa19c1fdec83-o-0",
+          "id": "6d81f4aa-a67a-4f4c-ba1d-70871d5e94f1-o-0",
           "linkType": "relation",
           "name": "data"
         }
@@ -106,13 +89,13 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 231.84765625,
+          "x": 256.38963317871094,
           "y": 55.0
         },
         "topLeft": {
           "kind": "Point",
-          "x": 266.0277972412109,
-          "y": 193.5
+          "x": 893.6388833618166,
+          "y": 360.5
         }
       },
       "state": {
@@ -178,7 +161,7 @@
                 "axisExtent": {
                   "kind": "Point",
                   "x": 80.0,
-                  "y": 88.0
+                  "y": 53.0
                 },
                 "axisSettings": {
                   "kind": "AxisSettings",
@@ -247,7 +230,7 @@
         },
         "columnTable": {
           "kind": "CrosstabTable",
-          "cellSize": 338.0,
+          "cellSize": 250.0,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -282,7 +265,7 @@
         },
         "operatorSettings": {
           "kind": "OperatorSettings",
-          "namespace": "ds1",
+          "namespace": "ds0",
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "",
@@ -295,37 +278,11 @@
               "uri": ""
             }
           },
-          "environment": [
-            {
-              "kind": "Pair",
-              "key": "cpu",
-              "value": "0"
-            },
-            {
-              "kind": "Pair",
-              "key": "ram",
-              "value": "0"
-            },
-            {
-              "kind": "Pair",
-              "key": "cpu-shares",
-              "value": "0"
-            },
-            {
-              "kind": "Pair",
-              "key": "tercen.collect.stats",
-              "value": "false"
-            },
-            {
-              "kind": "Pair",
-              "key": "debug",
-              "value": "false"
-            }
-          ]
+          "environment": []
         },
         "rowTable": {
           "kind": "CrosstabTable",
-          "cellSize": 65.33333333333333,
+          "cellSize": 71.5,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -357,18 +314,18 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "e7b0792c-a744-4ee0-a684-52dabbc527e1"
+        "id": "23997d63-cd0b-40d1-b06e-52d76e391b14"
       }
     },
     {
       "kind": "DataStep",
-      "id": "985ffb10-3726-41c0-9147-22fe223d3a25",
+      "id": "b61be878-0b63-49b4-b61a-c71d840e5e51",
       "groupId": "",
-      "name": "median ratio heatmap",
+      "name": "Median ratio heatmap",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "985ffb10-3726-41c0-9147-22fe223d3a25-i-0",
+          "id": "b61be878-0b63-49b4-b61a-c71d840e5e51-i-0",
           "linkType": "relation",
           "name": "data"
         }
@@ -376,7 +333,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "985ffb10-3726-41c0-9147-22fe223d3a25-o-0",
+          "id": "b61be878-0b63-49b4-b61a-c71d840e5e51-o-0",
           "linkType": "relation",
           "name": "data"
         }
@@ -385,13 +342,13 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 149.61183166503906,
+          "x": 148.183837890625,
           "y": 55.0
         },
         "topLeft": {
           "kind": "Point",
-          "x": 307.0277972412109,
-          "y": 289.5
+          "x": 948.3386999511722,
+          "y": 464.5
         }
       },
       "state": {
@@ -533,7 +490,7 @@
         },
         "columnTable": {
           "kind": "CrosstabTable",
-          "cellSize": 98.75,
+          "cellSize": 106.0,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -547,7 +504,7 @@
                 "kind": "Rectangle",
                 "extent": {
                   "kind": "Point",
-                  "x": 100.0,
+                  "x": 0.0,
                   "y": 30.0
                 },
                 "topLeft": {
@@ -568,7 +525,7 @@
                 "kind": "Rectangle",
                 "extent": {
                   "kind": "Point",
-                  "x": 0.0,
+                  "x": 50.0,
                   "y": 30.0
                 },
                 "topLeft": {
@@ -589,7 +546,7 @@
         },
         "operatorSettings": {
           "kind": "OperatorSettings",
-          "namespace": "ds2",
+          "namespace": "ds1",
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "",
@@ -602,37 +559,11 @@
               "uri": ""
             }
           },
-          "environment": [
-            {
-              "kind": "Pair",
-              "key": "cpu",
-              "value": "0"
-            },
-            {
-              "kind": "Pair",
-              "key": "ram",
-              "value": "0"
-            },
-            {
-              "kind": "Pair",
-              "key": "cpu-shares",
-              "value": "0"
-            },
-            {
-              "kind": "Pair",
-              "key": "tercen.collect.stats",
-              "value": "false"
-            },
-            {
-              "kind": "Pair",
-              "key": "debug",
-              "value": "false"
-            }
-          ]
+          "environment": []
         },
         "rowTable": {
           "kind": "CrosstabTable",
-          "cellSize": 67.0,
+          "cellSize": 71.5,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -664,18 +595,53 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "f50ab371-e620-45e8-85a1-0f0161d3850f"
+        "id": "9d204d34-37b5-4007-b861-ec4e98931c8b"
+      }
+    },
+    {
+      "kind": "ViewStep",
+      "id": "03666ce0-d846-4ffc-aa9c-edcca5ff1880",
+      "groupId": "",
+      "name": "View",
+      "inputs": [
+        {
+          "kind": "InputPort",
+          "id": "03666ce0-d846-4ffc-aa9c-edcca5ff1880-i-0",
+          "linkType": "any",
+          "name": "in"
+        }
+      ],
+      "outputs": [],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 88.99000000000001,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 1155.9356188964848,
+          "y": 527.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
       }
     },
     {
       "kind": "WizardStep",
-      "id": "edbffe33-d683-4fb4-a15a-fb28e47250b4",
+      "id": "bd97f8f6-3acb-43d8-87ab-c554bba58fcf",
       "groupId": "",
       "name": "Wizard",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "edbffe33-d683-4fb4-a15a-fb28e47250b4-i-0",
+          "id": "bd97f8f6-3acb-43d8-87ab-c554bba58fcf-i-0",
           "linkType": "relation",
           "name": "table"
         }
@@ -683,7 +649,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "edbffe33-d683-4fb4-a15a-fb28e47250b4-o-0",
+          "id": "bd97f8f6-3acb-43d8-87ab-c554bba58fcf-o-0",
           "linkType": "relation",
           "name": "table"
         }
@@ -697,8 +663,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 337.49788452148437,
-          "y": 97.5
+          "x": 977.6388833618166,
+          "y": 243.5
         }
       },
       "state": {
@@ -710,7 +676,7 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "plot_median_ratio_app",
+        "namespace": "plot",
         "description": "",
         "appDesignType": "plot_median_ratio_app.c06_super_groups_measurement2",
         "factors": [
@@ -734,7 +700,7 @@
             "kind": "MappingFactor",
             "name": "Group",
             "type": "string",
-            "isSingle": false,
+            "isSingle": true,
             "description": "",
             "factorName": "Group",
             "factors": [
@@ -818,7 +784,7 @@
             "kind": "MappingFactor",
             "name": "Group",
             "type": "string",
-            "isSingle": false,
+            "isSingle": true,
             "description": "",
             "factorName": "Group",
             "factors": [
@@ -884,13 +850,13 @@
     },
     {
       "kind": "InStep",
-      "id": "f8d030b5-666e-4be9-936f-a659c29896d0",
+      "id": "165990b7-e296-4e96-9f4a-183f393b48fc",
       "groupId": "",
       "name": "Input",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "f8d030b5-666e-4be9-936f-a659c29896d0-i-0",
+          "id": "165990b7-e296-4e96-9f4a-183f393b48fc-i-0",
           "linkType": "any",
           "name": "from"
         }
@@ -898,7 +864,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "f8d030b5-666e-4be9-936f-a659c29896d0-o-0",
+          "id": "165990b7-e296-4e96-9f4a-183f393b48fc-o-0",
           "linkType": "any",
           "name": "to"
         }
@@ -912,8 +878,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 337.505,
-          "y": 3.5
+          "x": 977.5050000000001,
+          "y": 127.5
         }
       },
       "state": {
@@ -931,13 +897,13 @@
     },
     {
       "kind": "OutStep",
-      "id": "b7f1f84a-0267-4844-83ba-d15e7c4642dd",
+      "id": "15d2aa97-43bf-4312-8a2a-882203f23e1a",
       "groupId": "",
       "name": "Output",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "b7f1f84a-0267-4844-83ba-d15e7c4642dd-i-0",
+          "id": "15d2aa97-43bf-4312-8a2a-882203f23e1a-i-0",
           "linkType": "any",
           "name": "from"
         }
@@ -945,7 +911,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "b7f1f84a-0267-4844-83ba-d15e7c4642dd-o-0",
+          "id": "15d2aa97-43bf-4312-8a2a-882203f23e1a-o-0",
           "linkType": "any",
           "name": "to"
         }
@@ -959,8 +925,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 336.0277972412109,
-          "y": 401.5
+          "x": 977.9356188964848,
+          "y": 594.5
         }
       },
       "state": {
@@ -975,81 +941,11 @@
         "x": 0.0,
         "y": 0.0
       }
-    },
-    {
-      "kind": "ViewStep",
-      "id": "493922a7-fe2f-433c-af82-a6a69cfc3047",
-      "groupId": "",
-      "name": "View 1",
-      "inputs": [
-        {
-          "kind": "InputPort",
-          "id": "493922a7-fe2f-433c-af82-a6a69cfc3047-i-0",
-          "linkType": "any",
-          "name": "in"
-        }
-      ],
-      "outputs": [],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 88.99000000000001,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 608.456625366211,
-          "y": 256.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      }
-    },
-    {
-      "kind": "ViewStep",
-      "id": "63869d4c-79c6-4a15-bf88-bb7d2540c26d",
-      "groupId": "",
-      "name": "View 2",
-      "inputs": [
-        {
-          "kind": "InputPort",
-          "id": "63869d4c-79c6-4a15-bf88-bb7d2540c26d-i-0",
-          "linkType": "any",
-          "name": "in"
-        }
-      ],
-      "outputs": [],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 88.99000000000001,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 604.3387130737306,
-          "y": 352.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      }
     }
   ],
   "offset": {
     "kind": "Point",
-    "x": 115.0,
-    "y": 65.0
+    "x": 0.0,
+    "y": 0.0
   }
 }
