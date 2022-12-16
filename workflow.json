@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "e4d9be95bfa2ee7a85c217b598746b45",
   "isDeleted": false,
-  "rev": "10-7cf1661a2b2ee459b2247e21be641017",
+  "rev": "11-745e0c72994afa58c526eabb96bdbe15",
   "description": "",
   "name": "plot_median_ratio_app",
   "createdBy": "myrto.kostadima",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-12-15T10:56:38.589939Z"
+    "value": "2022-12-16T14:41:16.488784Z"
   },
   "urls": [],
   "tags": [],
@@ -61,6 +61,12 @@
       "id": "1bd0b09f-8457-4686-992e-1de354373668",
       "inputId": "15d2aa97-43bf-4312-8a2a-882203f23e1a-i-0",
       "outputId": "b61be878-0b63-49b4-b61a-c71d840e5e51-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "8d36fce8-029a-4ca8-b00c-20e0423bb459",
+      "inputId": "afdfea20-eae7-495f-a8a8-66d84760c80f-i-0",
+      "outputId": "6d81f4aa-a67a-4f4c-ba1d-70871d5e94f1-o-0"
     }
   ],
   "steps": [
@@ -941,11 +947,46 @@
         "x": 0.0,
         "y": 0.0
       }
+    },
+    {
+      "kind": "ViewStep",
+      "id": "afdfea20-eae7-495f-a8a8-66d84760c80f",
+      "groupId": "",
+      "name": "View 1",
+      "inputs": [
+        {
+          "kind": "InputPort",
+          "id": "afdfea20-eae7-495f-a8a8-66d84760c80f-i-0",
+          "linkType": "any",
+          "name": "in"
+        }
+      ],
+      "outputs": [],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 88.99000000000001,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 1153.3386999511722,
+          "y": 423.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      }
     }
   ],
   "offset": {
     "kind": "Point",
-    "x": 0.0,
-    "y": 0.0
+    "x": -381.0,
+    "y": -36.0
   }
 }
